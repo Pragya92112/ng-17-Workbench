@@ -1,0 +1,32 @@
+<!-- <h1>this is user profile </h1>
+<h4>Name-{{name}} Status-{{status}} Salary-{{200000}}</h4> 
+<!-- this was about interpolation -->
+ <!-- <button [disabled]="isBtnDisabled">click me</button> -->
+ <!-- this was about property binding -->
+ <!-- <h1>input value-{{inputVal}}</h1>  -->
+<!-- <input type="text" [value]="inputVal" (input)="onChange($event)"> -->
+<!-- <input type="text" [(ngModel)]="inputVal"> -->
+<!-- was event binding and 2 way data binding-->
+
+<!-- <div>
+    @for(user of users;track user.name){
+        @if(user.salary > 10000){
+        <h4>Name-{{user.name}} Status-{{user.isSingle?"single":"Coder"}} salary-{{user.salary}}</h4>
+        }@else {
+            <h4>Name-{{user.name}} Status-{{user.isSingle?"single":"Coder"}} salary-hidden</h4>
+        }
+    }
+</div> -->
+<!-- control flow(@if@for)-->
+<!-- <hr/>
+<div *ngFor="let user of users">
+    <h4 *ngIf="user.salary>10000;else elseBlock">Name-{{user.name}} Status-{{user.isSingle?"single":"Coder"}} salary-{{user.salary}}</h4>
+    <ng-template #elseBlock>
+        <h4>Name-{{user.name}} Status-{{user.isSingle?"single":"Coder"}}</h4>
+    </ng-template>
+</div> -->
+<!-- directive*if*ngfor -->
+
+
+
+<h1> Name-{{name}} Status-{{isSingle?"single":"Coder"}} salary-{{salary}} </h1>
