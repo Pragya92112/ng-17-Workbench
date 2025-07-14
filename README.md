@@ -1,5 +1,4 @@
-# Angular 17 Practice Project
- It includes key features like routing, components, services, and reactive forms.
+Includes key features like routing, components, services, and reactive forms.
 
 ## 🚀 Features
 
